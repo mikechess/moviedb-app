@@ -1,4 +1,5 @@
 import Head from "next/head";
+import MovieSearch from "./components/MovieSearch";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold mb-8 text-white">
           Movie Database
         </h1>
+        <MovieSearch />
       </main>
     </div>
   )
